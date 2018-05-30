@@ -371,7 +371,7 @@ th {
 @font-face {
   font-family: 'IBM Plex Sans', sans-serif;
   font-style: normal;
-  font-weight: 700;}
+  font-weight: 500;}
 @font-face {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -387,7 +387,7 @@ th {
 @font-face {
   font-family: 'Crete Round', serif;
   font-style: normal;
-  font-weight: 700;}
+  font-weight: 500;}
 /* stylelint-enable */
 .usa-grid,
 .usa-grid-full {
@@ -713,7 +713,7 @@ button,
   display: inline-block;
   font-family: 'IBM Plex Sans', sans-serif, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1.7rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1;
   padding: 1rem 2rem;
   text-align: center;
@@ -1264,13 +1264,13 @@ select {
 .usa-input-error-label {
   display: block;
   font-size: 1.7rem;
-  font-weight: 700; }
+  font-weight: 500; }
 
 .usa-input-error-message {
   color: #cd2026;
   display: block;
   font-size: 1.7rem;
-  font-weight: 700;
+  font-weight: 500;
   padding-bottom: 3px;
   padding-top: 3px; }
 
@@ -1317,11 +1317,11 @@ select {
     text-shadow: 0 0 0 #000000; }
 
 option:first-child {
-  font-weight: 700; }
+  font-weight: 500; }
 
 legend {
   font-size: 3rem;
-  font-weight: 700; }
+  font-weight: 500; }
 
 .usa-fieldset-inputs label {
   margin-top: 0; }
@@ -1534,7 +1534,7 @@ table {
   margin: 2em 0; }
 
 thead th {
-  font-weight: 700; }
+  font-weight: 500; }
 thead th,
 thead td {
   background-color: #f1f1f1; }
@@ -1561,7 +1561,7 @@ td {
 
 caption {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
   font-family: 'Crete Round', serif, "Georgia", "Cambria", "Times New Roman", "Times", serif;
   margin-bottom: 1.2rem;
   text-align: left; }
@@ -1633,23 +1633,23 @@ h6 {
 
 h1 {
   font-size: 4rem;
-  font-weight: 700; }
+  font-weight: 500; }
 
 h2 {
   font-size: 3rem;
-  font-weight: 700; }
+  font-weight: 500; }
 
 h3 {
   font-size: 2rem;
-  font-weight: 700; }
+  font-weight: 500; }
 
 h4 {
   font-size: 1.7rem;
-  font-weight: 700; }
+  font-weight: 500; }
 
 h5 {
   font-size: 1.5rem;
-  font-weight: 700; }
+  font-weight: 500; }
 
 h6 {
   font-size: 1.3rem;
@@ -1678,7 +1678,7 @@ dfn {
   font-family: 'IBM Plex Sans', sans-serif, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 .usa-sans a {
   border-bottom: none;
-  font-weight: 700; }
+  font-weight: 500; }
 
 .usa-serif p,
 .usa-serif a,
@@ -1688,16 +1688,16 @@ dfn {
 
 .usa-display {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 0; }
   @media screen and (min-width: 481px) {
     .usa-display {
       font-size: 4rem;
-      font-weight: 700; } }
+      font-weight: 500; } }
   @media screen and (min-width: 600px) {
     .usa-display {
       font-size: 5.2rem;
-      font-weight: 700; } }
+      font-weight: 500; } }
 
 .usa-font-lead {
   font-family: 'Crete Round', serif, "Georgia", "Cambria", "Times New Roman", "Times", serif;
@@ -1839,7 +1839,7 @@ dfn {
       cursor: pointer;
       display: inline-block;
       font-family: 'IBM Plex Sans', sans-serif, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-      font-weight: 700;
+      font-weight: 500;
       margin: 0;
       padding: 1.5rem 5.5rem 1.5rem 2rem;
       width: 100%; }
@@ -1915,7 +1915,7 @@ dfn {
   cursor: pointer;
   display: inline-block;
   font-family: 'IBM Plex Sans', sans-serif, "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0;
   padding: 1.5rem 5.5rem 1.5rem 2rem;
   width: 100%; }
@@ -2259,7 +2259,7 @@ dfn {
 .usa-footer .usa-footer-primary-link {
   color: #212121;
   display: block;
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 0;
   padding-bottom: 2rem;
   padding-top: 2rem;
@@ -2755,7 +2755,7 @@ fieldset {
   display: block;
   font-size: 1.5rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0; }
   @media screen and (min-width: 951px) {
     .usa-logo-text {
@@ -3029,7 +3029,7 @@ fieldset {
   .usa-nav .usa-current {
     border-left: 4px solid #a51c30;
     color: #a51c30;
-    font-weight: 700;
+    font-weight: 500;
     padding-left: 1.4rem; }
     @media screen and (min-width: 951px) {
       .usa-nav .usa-current {
@@ -3076,7 +3076,7 @@ fieldset {
       /* stylelint-disable-line selector-no-qualifying-type */
       border-left: 0.4rem solid #a51c30;
       color: #a51c30;
-      font-weight: 700;
+      font-weight: 500;
       padding-left: 1.1rem; }
   @media screen and (min-width: 951px) {
     .usa-nav-primary {
@@ -3094,7 +3094,7 @@ fieldset {
         padding: 1.3rem 1.5rem 2.2rem;
         color: #5b616b;
         font-size: 1.5rem;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 1; } }
     @media screen and (min-width: 951px) {
       .usa-nav-primary > li > a:hover {
@@ -3124,7 +3124,7 @@ fieldset {
         padding: 1.3rem 1.5rem 2.2rem;
         color: #5b616b;
         font-size: 1.5rem;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 1;
         width: initial; } }
     .usa-nav-primary button:focus, .usa-nav-primary button:active {
@@ -3571,7 +3571,7 @@ input[type=search] {
       /* stylelint-disable-line selector-no-qualifying-type */
       border-left: 0.4rem solid #a51c30;
       color: #a51c30;
-      font-weight: 700;
+      font-weight: 500;
       padding-left: 1.1rem; }
   @media screen and (min-width: 1201px) {
     .usa-sidenav-list {
@@ -3833,7 +3833,7 @@ body {
   .site-nav-secondary a {
     color: #5b616b;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 5rem;
     padding: 1.5rem;
     text-decoration: none;
@@ -3921,7 +3921,7 @@ body {
 .label-done {
   color: #323a45;
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-left: 1.2rem;
   position: absolute;
   text-decoration: none; }
@@ -4200,11 +4200,11 @@ h3 + .button_wrapper {
 .usa-color-hex {
   margin-top: 1rem;
   margin-bottom: 0;
-  font-weight: 700; }
+  font-weight: 500; }
 
 .usa-color-text {
   padding: 1rem 2rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: .4rem; }
 
 .usa-color-outline .usa-color-text {
@@ -4768,7 +4768,7 @@ article {
     text-transform: none; }
   article.post-excerpt .post-title {
     font-size: 3rem;
-    font-weight: 700; }
+    font-weight: 500; }
   article.post-excerpt .post-content p {
     margin-bottom: 0;
     margin-top: 0.5rem; }
