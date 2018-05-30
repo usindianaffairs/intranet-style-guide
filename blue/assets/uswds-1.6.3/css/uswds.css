@@ -20,8 +20,9 @@ html {
 body {
   margin: 0; }
 
-body.page-uswds-powered-sites layout-styleguide{
+body.styleguide{
   margin-left:1em;
+  height:auto;
 }
 
 /* HTML5 display definitions
