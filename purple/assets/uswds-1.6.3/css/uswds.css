@@ -2035,7 +2035,7 @@ dfn {
     padding-left: 5rem; }
 
 .usa-alert-info {
-  background-color: #e1f3f8;
+  background-color: #9999cc;
   background-image: url("../../../assets/uswds-1.6.3/img/alerts/info.png");
   background-image: url("../../../assets/uswds-1.6.3/img/alerts/info.svg"); }
   .usa-alert-info::before {
@@ -3950,7 +3950,7 @@ body {
 
 .label-beta,
 .label-to-do {
-  background-color: #e1f3f8; }
+  background-color: #9999cc; }
 
 .label-recommended,
 .label-done {
@@ -4000,7 +4000,7 @@ footer.site {
       display: inline-block;
       line-height: 0; }
   footer.site .usa-footer-secondary_section {
-    background-color: #e1f3f8; }
+    background-color: #9999cc; }
     @media screen and (min-width: 600px) {
       footer.site .usa-footer-secondary_section {
         padding-top: 3rem;
@@ -4258,7 +4258,7 @@ h3 + .button_wrapper {
   background-color: #9bdaf1; }
 
 .usa-color-primary-alt-lightest {
-  background-color: #e1f3f8; }
+  background-color: #9999cc; }
 
 .usa-color-secondary {
   background-color: #3c2374; }
