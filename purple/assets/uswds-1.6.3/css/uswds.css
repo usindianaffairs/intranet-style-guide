@@ -718,7 +718,7 @@ button,
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  background-color: #2d1a57;
+  background-color: #4B0082;
   border: 0;
   border-radius: 5px;
   color: #ffffff;
@@ -781,7 +781,7 @@ button,
   [type=reset].usa-button-active,
   [type=image]:active,
   [type=image].usa-button-active {
-    background-color: #2d1a57; }
+    background-color: #4B0082; }
   .usa-button.usa-button-primary-alt,
   .usa-button-primary.usa-button-primary-alt,
   .usa-button:visited.usa-button-primary-alt,
@@ -840,8 +840,8 @@ button,
   [type=reset].usa-button-secondary,
   [type=image].usa-button-secondary {
     background-color: #ffffff;
-    box-shadow: inset 0 0 0 2px #2d1a57;
-    color: #2d1a57; }
+    box-shadow: inset 0 0 0 2px #4B0082;
+    color: #4B0082; }
     .usa-button.usa-button-secondary:hover, .usa-button.usa-button-secondary.usa-button-hover,
     .usa-button-primary.usa-button-secondary:hover,
     .usa-button-primary.usa-button-secondary.usa-button-hover,
@@ -878,8 +878,8 @@ button,
     [type=reset].usa-button-secondary.usa-button-active,
     [type=image].usa-button-secondary:active,
     [type=image].usa-button-secondary.usa-button-active {
-      box-shadow: inset 0 0 0 2px #2d1a57;
-      color: #2d1a57; }
+      box-shadow: inset 0 0 0 2px #4B0082;
+      color: #4B0082; }
   .usa-button.usa-button-secondary-inverse, .usa-button.usa-button-outline-inverse,
   .usa-button-primary.usa-button-secondary-inverse,
   .usa-button-primary.usa-button-outline-inverse,
@@ -1386,11 +1386,11 @@ legend {
 
 [type=checkbox]:checked + label::before,
 [type=radio]:checked + label::before {
-  background-color: #2d1a57;
-  box-shadow: 0 0 0 1px #2d1a57; }
+  background-color: #4B0082;
+  box-shadow: 0 0 0 1px #4B0082; }
 
 [type=radio]:checked + label::before {
-  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #2d1a57; }
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #4B0082; }
 
 [type=checkbox]:checked + label::before,
 [type=checkbox]:checked:disabled + label::before {
@@ -1432,7 +1432,7 @@ legend {
   width: 100%; }
 
 [type=range]::-moz-range-track {
-  background: #2d1a57;
+  background: #4B0082;
   border: 1px solid #757575;
   cursor: pointer;
   height: 1.2rem;
@@ -1592,7 +1592,7 @@ p {
   margin-top: 1em; }
 
 a {
-  color: #2d1a57;
+  color: #4B0082;
   text-decoration: underline; }
   a:hover, a:active {
     color: #3c2374 ; }
@@ -1600,7 +1600,7 @@ a {
     outline: 2px dotted #aeb0b5;
     outline-offset: 3px; }
   a:visited {
-    color: #2d1a57; }
+    color: #4B0082; }
 
 .usa-external_link::after {
   background: url("../../../assets/uswds-1.6.3/img/external-link.png") no-repeat 0 0;
@@ -1972,7 +1972,7 @@ dfn {
   .usa-alert a {
     color: #3c2374 ; }
     .usa-alert a:focus, .usa-alert a:hover {
-      color: #2d1a57; }
+      color: #4B0082; }
   .usa-alert ul {
     margin-bottom: 0;
     margin-top: 1rem;
@@ -2172,7 +2172,7 @@ dfn {
   padding-top: 1.3rem;
   padding-left: 4.8rem;
   background-position-x: right;
-  color: #2d1a57;
+  color: #4B0082;
   display: block;
   font-size: 1.2rem;
   height: 4.3rem;
@@ -2786,7 +2786,7 @@ fieldset {
   padding: 0;
   text-align: left;
   -webkit-font-smoothing: auto;
-  background-color: #2d1a57;
+  background-color: #4B0082;
   color: #ffffff;
   display: inline;
   float: right;
@@ -2911,7 +2911,7 @@ fieldset {
   color: #02bfe7; }
 
 .usa-hero-callout {
-  background-color: #2d1a57;
+  background-color: #4B0082;
   padding: 3rem; }
   @media screen and (min-width: 481px) {
     .usa-hero-callout {
@@ -2968,7 +2968,7 @@ fieldset {
   -webkit-font-smoothing: antialiased; }
   @media screen and (min-width: 951px) {
     .usa-nav-link:hover span {
-      border-bottom: 0.4rem solid #2d1a57;
+      border-bottom: 0.4rem solid #4B0082;
       padding-bottom: 0.6rem; } }
   @media screen and (min-width: 951px) {
     .usa-nav-link.usa-accordion-button span {
@@ -3040,8 +3040,8 @@ fieldset {
       .usa-nav nav {
         margin-top: 0; } }
   .usa-nav .usa-current {
-    border-left: 4px solid #2d1a57;
-    color: #2d1a57;
+    border-left: 4px solid #4B0082;
+    color: #4B0082;
     font-weight: 700;
     padding-left: 1.4rem; }
     @media screen and (min-width: 951px) {
@@ -3079,7 +3079,7 @@ fieldset {
     text-decoration: none; }
     .usa-nav-primary a:hover {
       background-color: #f1f1f1;
-      color: #2d1a57;
+      color: #4B0082;
       text-decoration: none; }
     .usa-nav-primary a:focus {
       outline-offset: 0;
@@ -3087,8 +3087,8 @@ fieldset {
       z-index: 1; }
     .usa-nav-primary a.usa-current {
       /* stylelint-disable-line selector-no-qualifying-type */
-      border-left: 0.4rem solid #2d1a57;
-      color: #2d1a57;
+      border-left: 0.4rem solid #4B0082;
+      color: #4B0082;
       font-weight: 700;
       padding-left: 1.1rem; }
   @media screen and (min-width: 951px) {
@@ -3144,7 +3144,7 @@ fieldset {
       box-shadow: 2px dotted #aeb0b5; }
     .usa-nav-primary button:hover {
       background-color: #f1f1f1;
-      color: #2d1a57; }
+      color: #4B0082; }
       @media screen and (min-width: 951px) {
         .usa-nav-primary button:hover {
           background-color: transparent; } }
@@ -3173,15 +3173,15 @@ fieldset {
       background-size: 1rem; }
       @media screen and (min-width: 951px) {
         .usa-nav-primary button[aria-expanded=true] {
-          background-color: #2d1a57;
+          background-color: #4B0082;
           color: #ffffff;
           background-image: url("../../../assets/uswds-1.6.3/img/angle-arrow-down-hover.png");
           background-image: url("../../../assets/uswds-1.6.3/img/angle-arrow-down-hover.svg");
           background-position: right 1.5rem top 40%; }
           .usa-nav-primary button[aria-expanded=true]:hover {
-            background-color: #2d1a57; }
+            background-color: #4B0082; }
           .usa-nav-primary button[aria-expanded=true] span {
-            border-bottom: 0.4rem solid #2d1a57;
+            border-bottom: 0.4rem solid #4B0082;
             padding-bottom: 0.6rem;
             color: #ffffff; } }
   @media screen and (min-width: 951px) {
@@ -3191,26 +3191,26 @@ fieldset {
       padding-left: 1.5rem; }
       .usa-nav-primary a.usa-current:hover span,
       .usa-nav-primary .usa-current:hover span {
-        color: #2d1a57; }
+        color: #4B0082; }
       .usa-nav-primary a.usa-current span,
       .usa-nav-primary .usa-current span {
-        border-bottom: 0.4rem solid #2d1a57;
+        border-bottom: 0.4rem solid #4B0082;
         padding-bottom: 0.6rem;
         color: #333399; } }
 
 @media screen and (min-width: 951px) {
   .usa-header-extended .usa-nav-link:hover span {
-    border-bottom: 0.7rem solid #2d1a57;
+    border-bottom: 0.7rem solid #4B0082;
     padding-bottom: 0.9rem; } }
 .usa-header-extended .usa-nav-primary button[aria-expanded=true] {
   /* stylelint-disable-line selector-no-qualifying-type */ }
   @media screen and (min-width: 951px) {
     .usa-header-extended .usa-nav-primary button[aria-expanded=true] span {
-      border-bottom: 0.7rem solid #2d1a57;
+      border-bottom: 0.7rem solid #4B0082;
       padding-bottom: 0.9rem; } }
 @media screen and (min-width: 951px) {
   .usa-header-extended .usa-nav-primary .usa-current span {
-    border-bottom: 0.7rem solid #2d1a57;
+    border-bottom: 0.7rem solid #4B0082;
     padding-bottom: 0.9rem; } }
 
 .usa-nav-secondary {
@@ -3254,7 +3254,7 @@ fieldset {
     text-decoration: none; }
     .usa-nav-secondary-links a:hover,
     .usa-nav-secondary-links .usa-header-search-button:hover {
-      color: #2d1a57;
+      color: #4B0082;
       text-decoration: underline; }
   .usa-nav-secondary-links .usa-header-search-button {
     background-color: transparent;
@@ -3318,7 +3318,7 @@ fieldset {
       padding-left: 0;
       padding-top: 0.75rem;
       padding-bottom: 0.9rem;
-      background-color: #2d1a57;
+      background-color: #4B0082;
       width: 21.5rem;
       position: absolute; }
       .usa-nav-submenu > li {
@@ -3331,7 +3331,7 @@ fieldset {
       padding-left: 1.5rem; } }
   @media screen and (min-width: 951px) {
     .usa-nav-submenu a:hover {
-      background-color: #2d1a57;
+      background-color: #4B0082;
       color: #ffffff;
       padding-left: 1.5rem;
       text-decoration: underline; } }
@@ -3377,7 +3377,7 @@ fieldset {
     width: 100%; } }
 @media screen and (min-width: 951px) {
   .usa-megamenu::before {
-    background-color: #2d1a57;
+    background-color: #4B0082;
     content: '';
     display: block;
     height: 100%;
@@ -3387,7 +3387,7 @@ fieldset {
     right: 100%; } }
 @media screen and (min-width: 951px) {
   .usa-megamenu::after {
-    background-color: #2d1a57;
+    background-color: #4B0082;
     content: '';
     display: block;
     height: 100%;
@@ -3533,7 +3533,7 @@ input[type=search] {
   background-color: #f1f1f1; }
 
 .usa-section-dark {
-  background-color: #2d1a57;
+  background-color: #4B0082;
   color: #ffffff; }
   .usa-section-dark h1,
   .usa-section-dark h2,
@@ -3574,7 +3574,7 @@ input[type=search] {
     text-decoration: none; }
     .usa-sidenav-list a:hover {
       background-color: #f1f1f1;
-      color: #2d1a57;
+      color: #4B0082;
       text-decoration: none; }
     .usa-sidenav-list a:focus {
       outline-offset: 0;
@@ -3582,8 +3582,8 @@ input[type=search] {
       z-index: 1; }
     .usa-sidenav-list a.usa-current {
       /* stylelint-disable-line selector-no-qualifying-type */
-      border-left: 0.4rem solid #2d1a57;
-      color: #2d1a57;
+      border-left: 0.4rem solid #4B0082;
+      color: #4B0082;
       font-weight: 700;
       padding-left: 1.1rem; }
   @media screen and (min-width: 1201px) {
@@ -3700,7 +3700,7 @@ body {
     .homepage-rule.center-diamond:before {
       content: "\00a0";
       display: inline-block;
-      background: #2d1a57;
+      background: #4B0082;
       height: 1px;
       position: relative;
       top: 0.6rem;
@@ -3724,7 +3724,7 @@ body {
     display: table; }
 
 .site-header {
-  background-color: #2d1a57; }
+  background-color: #4B0082; }
   @media screen and (min-width: 951px) {
     .site-header {
       border-bottom: none; } }
@@ -3768,8 +3768,8 @@ body {
     .site-header-navbar {
       padding-top: 1px; } } }
 .sidenav-mobile .usa-button.usa-button-outline-inverse {
-  box-shadow: inset 0 0 0 2px #2d1a57;
-  color: #2d1a57; }
+  box-shadow: inset 0 0 0 2px #4B0082;
+  color: #4B0082; }
   .sidenav-mobile .usa-button.usa-button-outline-inverse:hover {
     box-shadow: inset 0 0 0 2px #3c2374 ;
     color: #3c2374 ; }
@@ -3793,7 +3793,7 @@ body {
     background-color: transparent; }
   .sidenav-mobile li > button:hover {
     background-color: #f1f1f1;
-    color: #2d1a57; }
+    color: #4B0082; }
   .sidenav-mobile li > button[aria-expanded=false] {
     background-image: url("../../../assets/uswds-1.6.3/img/plus-alt.png");
     background-image: url("../../../assets/uswds-1.6.3/img/plus-alt.svg");
@@ -3852,11 +3852,11 @@ body {
     text-decoration: none;
     -webkit-font-smoothing: antialiased; }
     .site-nav-secondary a:hover span {
-      border-bottom: 0.7rem solid #2d1a57;
+      border-bottom: 0.7rem solid #4B0082;
       padding-bottom: 0.9rem;
-      color: #2d1a57; }
+      color: #4B0082; }
   .site-nav-secondary .usa-current span {
-    border-bottom: 0.7rem solid #2d1a57;
+    border-bottom: 0.7rem solid #4B0082;
     padding-bottom: 0.9rem;
     color: #333399; }
 
@@ -4041,7 +4041,7 @@ footer.site {
 .footer-section-bottom {
   padding-top: 1.6rem;
   padding-bottom: 1.3rem;
-  background-color: #2d1a57; }
+  background-color: #4B0082; }
   .footer-section-bottom p {
     color: #ffffff;
     font-size: 1.4rem;
@@ -4224,7 +4224,7 @@ h3 + .button_wrapper {
   box-shadow: inset 0 0 0 1px #5b616b; }
 
 .usa-color-primary {
-  background-color: #2d1a57; }
+  background-color: #4B0082; }
 
 .usa-color-primary-darker {
   background-color: #3c2374 ; }
@@ -4333,16 +4333,16 @@ h3 + .button_wrapper {
   background-color: #aeb0b5; }
 
 .usa-color-visited {
-  background-color: #2d1a57; }
+  background-color: #4B0082; }
 
 .usa-color-text-primary-darkest {
-  color: #2d1a57; }
+  color: #4B0082; }
 
 .usa-color-text-primary-darker {
   color: #3c2374 ; }
 
 .usa-color-text-primary {
-  color: #2d1a57; }
+  color: #4B0082; }
 
 .usa-color-text-cool-blue-light {
   color: #4773aa; }
@@ -4354,7 +4354,7 @@ h3 + .button_wrapper {
   color: #2e8540; }
 
 .usa-color-text-visited {
-  color: #2d1a57; }
+  color: #4B0082; }
 
 .usa-color-text-gray-dark {
   color: #323a45; }
@@ -4775,7 +4775,7 @@ article {
       color: inherit;
       text-decoration: none; }
       article .post-title a:hover {
-        color: #2d1a57;
+        color: #4B0082;
         text-decoration: underline; }
   article .post-date {
     text-transform: none; }
